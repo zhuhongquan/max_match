@@ -20,3 +20,7 @@ dict_name为函数creat_dict生成的词典文件，默认文件名为"word.dict
 F值 = 正确率\*召回率\*2/(正确率+召回率)<br>
 resultFile为算法匹配得出的分词结果，即为上面的"data.out"；answerFile即为测试文件(作为标准答案)。
 <br>
+
+下面为"dev.ctb60.hwc.seg"数据的运行结果：<br>
+
+![](https://github.com/zhuhongquan/max_match/raw/master/images/dev_result.png)  
