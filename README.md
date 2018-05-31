@@ -18,5 +18,5 @@ dict_name为函数creat_dict生成的词典文件，默认文件名为"word.dict
 正确率(Precision) = 正确识别的词数/识别出的个体总数<br>
 召回率(Recall) = 正确识别的个体总数/测试集中存在的个体总数<br>
 F值 = 正确率\*召回率\*2/(正确率+召回率)<br>
-resultFile为算法匹配得出的分词结果，即为上面的"data.out"；answerFile为测试文件的分词结果(作为标准答案)。
+resultFile为算法匹配得出的分词结果，即为上面的"data.out"；answerFile即为测试文件(作为标准答案)。
 <br>
