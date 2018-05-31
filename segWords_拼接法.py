@@ -79,16 +79,6 @@ def eval(resultFile,answerFile):
             count_ans+=len(temp_list2)
             list2.append(temp_list2)
 
-    # print(len(list1))
-    # print(len(list2))
-    '''
-    for i in range(len(list2)):
-        set_i = set(list2[i])
-        for j in list1[i]:
-            if j in set_i:
-                count_right += 1
-    '''
-
     # outfile = open("dev拼接法正确匹配到的分词.txt", "a", encoding="utf-8")
     for i in range(len(list2)):
         j = 0
